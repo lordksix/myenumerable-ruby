@@ -1,14 +1,14 @@
 require_relative './myenumerable'
 
+require_relative 'myenumerable'
 class MyList
   include MyEnumerable
-
   def initialize(*list)
-    @list = list
+    @list = list.flatten
   end
-
-  def print_list
-    puts @list.kind_of?(Array)
+  def each(&)
+    @list.each(&)
+    self
   end
 end
 

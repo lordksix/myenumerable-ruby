@@ -1,13 +1,29 @@
 module MyEnumerable
   def all?
-    true
+    result = true
+    each do |e|
+      if yield e
+        result = false
+        break
+      end
+    end
+    result
   end
-
   def any?
-    true
+    result = false
+    each do |e|
+      if yield e
+        result = true
+        break
+      end
+    end
+    result
   end
-
   def filter
-    puts 'code comes here'
+    result = []
+    each do |e|
+      result << e if yield e
+    end
+    result
   end
 end

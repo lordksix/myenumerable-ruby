@@ -2,7 +2,7 @@ module MyEnumerable
   def all?
     result = true
     each do |e|
-      if yield e
+      unless yield e
         result = false
         break
       end

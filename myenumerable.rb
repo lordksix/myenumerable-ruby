@@ -9,6 +9,7 @@ module MyEnumerable
     end
     result
   end
+
   def any?
     result = false
     each do |e|
@@ -19,6 +20,7 @@ module MyEnumerable
     end
     result
   end
+
   def filter
     result = []
     each do |e|

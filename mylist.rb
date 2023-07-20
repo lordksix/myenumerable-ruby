@@ -5,8 +5,8 @@ class MyList
     @list = list.flatten
   end
 
-  def each(&)
-    @list.each(&)
+  def each(&block)
+    @list.each(&block)
     self
   end
 end

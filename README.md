@@ -55,10 +55,6 @@
 - **Implement my enumerable module**
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-No live demo available.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>

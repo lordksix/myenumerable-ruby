@@ -135,7 +135,7 @@ No deployment of this project
 ## 🔭 Future Features <a name="future-features"></a>
 
 Future changes:
-- Add your own morse code to decode
+- No changes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
